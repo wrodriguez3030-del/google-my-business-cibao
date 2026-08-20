@@ -11,8 +11,9 @@ Publica el lote semanal de fotos (y opcionalmente un post) en el perfil de Googl
 
 1. `git status` — el working tree debe estar limpio de fotos sin commitear. Si hay fotos nuevas: commit + push a `origin` **y a `github`** (sin push al espejo no hay URL pública).
 2. `node scripts/siguiente-lote.mjs` — obtiene el lote. Si `lote` está vacío: avisar que el banco se agotó y pedir fotos nuevas. Si alguna trae `advertencia`, saltarla y avisar.
-3. Verificar cada URL con `curl -sI <url>` → debe dar 200 y `content-type` de imagen. Si da 404, el push al espejo falta o falló.
-4. Por cada foto del lote: Windsor `execute_action` con connector `google_my_business`, la cuenta de su sucursal, acción `upload_media`, `photo_url` y `category` del lote.
+3. **🔴 AUTORIZACIÓN OBLIGATORIA (regla del dueño, 2026-08-20): presentar el lote al dueño (qué foto, a qué sucursal, con qué categoría — idealmente mostrando las imágenes) y ESPERAR su OK explícito. Sin aprobación no se sube NADA a Google. Si rechaza alguna, se salta sin marcarla publicada.**
+4. Verificar cada URL con `curl -sI <url>` → debe dar 200 y `content-type` de imagen. Si da 404, el push al espejo falta o falló.
+5. Por cada foto aprobada: Windsor `execute_action` con connector `google_my_business`, la cuenta de su sucursal, acción `upload_media`, `photo_url` y `category` del lote.
 5. Por cada publicada con éxito: `node scripts/marcar-publicada.mjs <archivo> <sucursal>`.
 6. Post opcional (semanal o quincenal, ver `docs/SEO-LOCAL.md`): `create_local_post` con la oferta vigente del mes y CTA `BOOK` hacia el enlace de reservas de AgendaPro, `language_code: "es"`. La oferta cambia cada mes — verificar la vigente antes de redactar, nunca reciclar la del mes pasado.
 7. Commit de `estado/cola.json` (`gmb: publicación semanal AAAA-MM-DD`) y push a ambos remotos.
