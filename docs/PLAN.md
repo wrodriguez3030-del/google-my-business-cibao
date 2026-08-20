@@ -40,11 +40,14 @@ Grupo de ubicaciones: https://business.google.com/groups/113578702847257069963/l
 - [x] Cuenta Apple Business "Cibao Spa Laser" creada (business.apple.com); las 4 fichas YA EXISTEN en Apple Maps auto-generadas, listas para reclamar
 - [x] Villa Olga reclamada por el asistente: dirección confirmada (Calle Monseñor Hugo Polanco Brito, Santiago), categoría "Servicio de depilación láser", marca "Cibao Spa Laser" + web, "organización propietaria"
 - [x] Método de verificación elegido: verificación de la ORGANIZACIÓN (cubre las 4 sedes, tarda hasta 5 días); método 1 = dominio con TXT generado: `apple-domain-verification=vcRO8heX4wOcF6NE` en `cibaospalaser.com`
-- [ ] 🔴 BLOQUEO: el DNS de cibaospalaser.com está en Vercel pero en la cuenta de OTRA persona (la de wrodriguez3030-4801 solo tiene el .com.do) — pedir a quien la maneja que agregue ese TXT, o traer el dominio a la cuenta propia
-- [ ] Método 2 = subir un documento del negocio: RNC / licencia comercial / contrato del local (lo aporta el dueño)
-- [ ] "Enviar a revisión" cuando los 2 métodos estén listos
-- [ ] Reclamar las otras 3 sedes (Los Jardines, Naco, Rafael Vidal) — con la organización verificada no piden verificación extra
-- [ ] Corregir en Apple el horario (muestra 9-17 y sáb-dom cerrado; el real es L-V 9-20, sáb 8-16) y cargar fotos del banco
+- [x] Verificación ENVIADA A REVISIÓN el 20/08 con DOCUMENTOS del negocio (el dueño los subió; el TXT ya no hizo falta — el bloqueo del dominio de tercero quedó sin efecto). Apple tarda hasta 5 días hábiles
+- [x] Las 4 sedes reclamadas; marca unificada "Cibao Spa Laser" (el asistente la había llamado "…- Villa Olga" y se corrigió: el nombre de marca manda sobre el nombre de cada ficha)
+- [x] Naco marcada CERRADA TEMPORALMENTE también en Apple (inicio 20/08/2026, fin 31/12/2026 — al reabrir, cambiar Estado a Abierto y quitar la pausa en config.json). El dueño pidió no registrarla; se explicó que la ficha ya existía en Maps diciendo "Abierto", así que reclamada+cerrada es lo correcto
+- [x] Horarios correctos en Apple (L-V 9-20, sáb 8-16, dom cerrado) — venían bien de la ficha reclamada
+- [x] Direcciones alineadas con Google: Villa Olga "Calle Julio García esq. Monseñor Hugo Polanco Brito" + CP 51000; Los Jardines "Calle Aquiles Ramírez No. 7" + CP 51000; Rafael Vidal + Plaza Mediterránea (unidad) + CP 51000; coordenadas intactas
+- [x] Descripciones con palabras clave en Villa Olga, Los Jardines y Rafael Vidal
+- [ ] Tras la aprobación (hasta 5 días): nombres alternativos por sede (p. ej. "Cibao Spa Laser Los Jardines") — Apple no dejó guardarlos con la ficha en revisión
+- [ ] Cargar logotipo y foto de portada de la marca + fotos por sede (cuando llegue el banco de imágenes)
 
 ## Criterio de éxito
 
