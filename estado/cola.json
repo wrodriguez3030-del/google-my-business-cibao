@@ -1,3 +1,28 @@
 {
-  "publicadas": []
+  "publicadas": [
+    {
+      "archivo": "los-jardines/sucursal-los-jardines.png",
+      "sucursal": "los-jardines",
+      "fecha": "2026-08-20T18:24:40.883Z",
+      "notas": "media AF1QipOVspdX"
+    },
+    {
+      "archivo": "rafael-vidal/sucursal-rafael-vidal.png",
+      "sucursal": "rafael-vidal",
+      "fecha": "2026-08-20T18:24:40.918Z",
+      "notas": "media AF1QipP84PEu"
+    },
+    {
+      "archivo": "villa-olga/sucursal-villa-olga.png",
+      "sucursal": "villa-olga",
+      "fecha": "2026-08-20T18:24:40.950Z",
+      "notas": "media AF1QipOKRFkE"
+    },
+    {
+      "archivo": "general/equipo-grupo.jpg",
+      "sucursal": "villa-olga",
+      "fecha": "2026-08-20T18:24:40.983Z",
+      "notas": "TEAMS media AF1QipNCvFId"
+    }
+  ]
 }
