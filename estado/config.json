@@ -3,10 +3,28 @@
   "rama": "main",
   "fotosPorSemanaPorSucursal": 1,
   "grupoUbicaciones": "https://business.google.com/groups/113578702847257069963/locations",
+  "cuentaGoogle": "cibaospalaser@gmail.com",
   "sucursales": {
+    "villa-olga": {
+      "nombre": "Cibao Spa Laser - Villa Olga",
+      "windsorAccountId": "locations/11222404823578333931"
+    },
+    "los-jardines": {
+      "nombre": "Cibao Spa Laser - Los Jardines",
+      "windsorAccountId": "locations/17967178856401352260"
+    },
+    "naco": {
+      "nombre": "Cibao Spa Laser Naco I Centro de Depilación Láser",
+      "windsorAccountId": "locations/4963368088874115624"
+    },
+    "rafael-vidal": {
+      "nombre": "Cibao Spa Laser - Rafael Vidal",
+      "windsorAccountId": "locations/13379614539242714679"
+    },
     "general": {
+      "nombre": "Fotos válidas para cualquier sucursal",
       "windsorAccountId": null,
-      "nota": "Completar en Fase 2: carpeta ↔ account_id del conector google_my_business en Windsor"
+      "nota": "Al publicar desde general, /gmb-semana pregunta a qué sucursal va cada foto"
     }
   }
 }

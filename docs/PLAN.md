@@ -10,12 +10,12 @@ Grupo de ubicaciones: https://business.google.com/groups/113578702847257069963/l
 - [x] Documentación: README, SEO-LOCAL, este plan
 - [x] Repo en Gitea `ARB/google-my-business-cibao` (origin) + espejo GitHub (github)
 
-## Fase 2 — Conectar Windsor ⏳ (requiere un clic del dueño)
+## Fase 2 — Conectar Windsor ✅ (2026-08-19)
 
-- [ ] Autorizar el conector `google_my_business` en Windsor con la cuenta Google dueña del grupo (URL de autorización en el traspaso final)
-- [ ] Verificar qué ubicaciones expone la conexión (¿una cuenta por sucursal o todas en una?)
-- [ ] Completar `estado/config.json` → `sucursales`: carpeta ↔ `account_id` de Windsor
-- [ ] Crear en `banco-imagenes/` una carpeta por sucursal real
+- [x] Conector `google_my_business` autorizado con `cibaospalaser@gmail.com` (contraseña y 2FA los puso el dueño; el grupo de ubicaciones enlazado estaba VACÍO — las fichas viven directo en esa cuenta)
+- [x] Las 4 sucursales seleccionadas en Windsor y **Write actions encendido** (sin ese interruptor Claude solo lee)
+- [x] `estado/config.json` → mapeo carpeta ↔ `locations/<id>` de las 4 sucursales
+- [x] Carpetas por sucursal en `banco-imagenes/`: villa-olga, los-jardines, naco, rafael-vidal
 
 ## Fase 3 — Primera publicación supervisada
 
