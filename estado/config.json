@@ -1,0 +1,12 @@
+{
+  "espejoGithub": "wrodriguez3030-del/google-my-business-cibao",
+  "rama": "main",
+  "fotosPorSemanaPorSucursal": 1,
+  "grupoUbicaciones": "https://business.google.com/groups/113578702847257069963/locations",
+  "sucursales": {
+    "general": {
+      "windsorAccountId": null,
+      "nota": "Completar en Fase 2: carpeta ↔ account_id del conector google_my_business en Windsor"
+    }
+  }
+}
