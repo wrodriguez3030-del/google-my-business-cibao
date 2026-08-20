@@ -35,13 +35,16 @@ Grupo de ubicaciones: https://business.google.com/groups/113578702847257069963/l
 - [ ] Horarios regulares exactos + horarios especiales de feriados RD
 - [ ] Lo que Windsor no cubre (categorías, servicios, atributos, Q&A) se hace a mano en business.google.com con la guía de `docs/SEO-LOCAL.md`
 
-## Fase 6 — Apple Maps (manual, sin API)
+## Fase 6 — Apple Maps ⏳ (avanzada 2026-08-20)
 
-- [ ] Entrar a https://businessconnect.apple.com con el Apple ID del dueño
-- [ ] "Add a business" → buscar si Apple ya tiene la ficha (suele existir auto-generada) → reclamarla; si no existe, crearla
-- [ ] Verificación: Apple valida por teléfono de la sucursal o por documento
-- [ ] Cargar por sucursal: nombre exacto, dirección, teléfono, horario, categoría, fotos (mismo banco de imágenes), enlace de reservas
-- [ ] Repetir para cada sucursal
+- [x] Cuenta Apple Business "Cibao Spa Laser" creada (business.apple.com); las 4 fichas YA EXISTEN en Apple Maps auto-generadas, listas para reclamar
+- [x] Villa Olga reclamada por el asistente: dirección confirmada (Calle Monseñor Hugo Polanco Brito, Santiago), categoría "Servicio de depilación láser", marca "Cibao Spa Laser" + web, "organización propietaria"
+- [x] Método de verificación elegido: verificación de la ORGANIZACIÓN (cubre las 4 sedes, tarda hasta 5 días); método 1 = dominio con TXT generado: `apple-domain-verification=vcRO8heX4wOcF6NE` en `cibaospalaser.com`
+- [ ] 🔴 BLOQUEO: el DNS de cibaospalaser.com está en Vercel pero en la cuenta de OTRA persona (la de wrodriguez3030-4801 solo tiene el .com.do) — pedir a quien la maneja que agregue ese TXT, o traer el dominio a la cuenta propia
+- [ ] Método 2 = subir un documento del negocio: RNC / licencia comercial / contrato del local (lo aporta el dueño)
+- [ ] "Enviar a revisión" cuando los 2 métodos estén listos
+- [ ] Reclamar las otras 3 sedes (Los Jardines, Naco, Rafael Vidal) — con la organización verificada no piden verificación extra
+- [ ] Corregir en Apple el horario (muestra 9-17 y sáb-dom cerrado; el real es L-V 9-20, sáb 8-16) y cargar fotos del banco
 
 ## Criterio de éxito
 
