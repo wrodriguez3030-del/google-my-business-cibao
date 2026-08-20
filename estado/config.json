@@ -15,7 +15,9 @@
     },
     "naco": {
       "nombre": "Cibao Spa Laser Naco I Centro de Depilación Láser",
-      "windsorAccountId": "locations/4963368088874115624"
+      "windsorAccountId": "locations/4963368088874115624",
+      "pausada": true,
+      "nota": "Cerrada temporalmente (confirmado por el dueño 2026-08-20): no publicar fotos ni posts hasta que reabra; al reabrir, quitar este pausada y reabrir la ficha con set_open_status OPEN"
     },
     "rafael-vidal": {
       "nombre": "Cibao Spa Laser - Rafael Vidal",

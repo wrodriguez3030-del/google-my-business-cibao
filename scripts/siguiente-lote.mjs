@@ -55,6 +55,7 @@ async function main() {
   const cuota = config.fotosPorSemanaPorSucursal ?? 1
   const lote = []
   for (const [sucursal, archivos] of Object.entries(porSucursal)) {
+    if (config.sucursales[sucursal]?.pausada) continue
     for (const archivo of archivos.slice(0, cuota)) {
       const info = await stat(join(BANCO, archivo))
       lote.push({
