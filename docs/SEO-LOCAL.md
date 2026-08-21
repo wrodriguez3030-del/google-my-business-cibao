@@ -32,7 +32,7 @@ Cómo funciona el ranking del "local pack" (los 3 resultados con mapa): Google p
 - **Servicios**: cada servicio con su descripción y precio "desde" — cada uno es una palabra clave.
 - **Descripción** (750 car.): qué, dónde, para quién, con las búsquedas objetivo escritas de forma natural (vía `update_location`).
 - **Atributos**: cita previa, accesibilidad, formas de pago.
-- **Q&A**: sembrar las 5-8 preguntas que la gente hace por WhatsApp (¿duele?, ¿precio?, ¿cuántas sesiones?) y responderlas como negocio.
+- ~~**Q&A**: sembrar preguntas~~ — Google RETIRÓ la función Q&A (nov-2025; lo reemplaza la IA «Ask Maps»). Las respuestas típicas de WhatsApp van ahora en la descripción, los servicios y posts FAQ, que es donde la IA de Google las lee. Ver `FICHA-CHECKLIST.md` §4.
 - **Horarios** exactos + especiales de feriados (vía Windsor) — una ficha marcada "podría estar cerrado" pierde clics.
 
 ### 5. Consistencia NAP (Nombre, Dirección, Teléfono)

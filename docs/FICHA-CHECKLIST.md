@@ -25,18 +25,11 @@ Cada servicio publicado es una palabra clave. El precio es el REGULAR (RD$2,000/
 
 Cita previa obligatoria · formas de pago aceptadas · accesibilidad · los demás que el panel ofrezca y apliquen.
 
-## 4. Q&A — sembrar 5-8 preguntas por sede y responderlas como negocio
+## 4. Q&A — ❌ YA NO EXISTE (verificado 2026-08-21)
 
-Las que la gente pregunta por WhatsApp:
+**Google retiró la función de Preguntas y respuestas de todos los perfiles**: descontinuada el 3-nov-2025, los hilos públicos desaparecieron de Search y Maps en dic-2025, sustituida por respuestas de IA («Ask Maps» con Gemini). No se puede sembrar Q&A en ninguna ficha — comprobado en vivo: la sección no aparece ni en Search ni en Maps.
 
-- ¿Duele la depilación láser?
-- ¿Cuántas sesiones necesito?
-- ¿Cuál es el precio?
-- ¿Sirve para todo tipo de piel?
-- ¿Atienden hombres?
-- ¿Qué áreas se pueden tratar?
-- ¿Hay que llegar rasurada?
-- ¿La evaluación es gratis?
+**Alternativa** (para que la IA de Google encuentre las respuestas): las respuestas aprobadas (duele/sesiones/precio/hombres/rasurada/agendar) se colocan donde Gemini sí lee — la descripción de la ficha (hecho), las descripciones de servicios (hecho en el láser), un post FAQ vía `/gmb-post` (tema `faq-depilacion-laser`, pendiente de OK del dueño) y una página de preguntas frecuentes en cibaospalaser.com (pendiente, con el tercero que administra la web).
 
 ## Pendiente aparte (no es de la ficha)
 
