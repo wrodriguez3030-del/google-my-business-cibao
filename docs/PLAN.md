@@ -21,7 +21,7 @@ Grupo de ubicaciones: https://business.google.com/groups/113578702847257069963/l
 
 - [ ] Poner 3-5 fotos reales en el banco (ver reglas en `banco-imagenes/README.md`)
 - [ ] Correr `/gmb-semana` con supervisión: subir foto, confirmar que aparece en la ficha, cola avanzada
-- [ ] Probar `create_local_post` con CTA `BOOK` apuntando a la reserva de AgendaPro
+- [x] Probar `create_local_post` con CTA `BOOK` apuntando a la reserva de AgendaPro (comando `/gmb-post`, primer post: oferta agosto 2026 en las 3 sedes abiertas, 2026-08-21)
 
 ## Fase 4 — Cadencia semanal
 

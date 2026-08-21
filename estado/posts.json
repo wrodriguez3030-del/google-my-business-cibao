@@ -1,3 +1,22 @@
 {
-  "publicados": []
+  "publicados": [
+    {
+      "tema": "oferta-agosto-2026",
+      "sucursal": "villa-olga",
+      "fecha": "2026-08-21T19:34:07Z",
+      "notas": "localPosts/3366236673066091134"
+    },
+    {
+      "tema": "oferta-agosto-2026",
+      "sucursal": "los-jardines",
+      "fecha": "2026-08-21T19:34:07Z",
+      "notas": "localPosts/599370754294602047"
+    },
+    {
+      "tema": "oferta-agosto-2026",
+      "sucursal": "rafael-vidal",
+      "fecha": "2026-08-21T19:34:07Z",
+      "notas": "localPosts/4087232959774453981"
+    }
+  ]
 }
