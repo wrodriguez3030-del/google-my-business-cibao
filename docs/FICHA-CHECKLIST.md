@@ -2,17 +2,13 @@
 
 Lo que Windsor **no** cubre; se hace a mano con la sesión de `cibaospalaser@gmail.com`. Estado al 2026-08-21 (diagnóstico vía Windsor `get_data`).
 
-## 1. Categorías secundarias — Rafael Vidal y Villa Olga
+## 1. Categorías secundarias — Rafael Vidal y Villa Olga ✅ (2026-08-21)
 
-Los Jardines ya tiene el set completo; copiarlo en las otras dos:
+HECHO por el navegador con la cuenta cibaospalaser: las 5 categorías de Los Jardines (Spa, Esteticista, Esteticista facial, Clínica dermatológica, Servicio de eliminación de tatuajes) añadidas en Rafael Vidal y Villa Olga. Google las dejó «pendientes de revisión» (~10 min) — verificar luego que aparezcan.
 
-- Spa
-- Esteticista
-- Esteticista facial
-- Clínica dermatológica
-- Servicio de eliminación de tatuajes
+La categoría principal de Rafael Vidal SÍ es «Centro de depilación láser» (el inglés era solo el locale de la API — verificado en el panel).
 
-Además: la categoría principal de Rafael Vidal aparece en inglés en la API («Laser hair removal service») — verificar en el panel que sea «Centro de depilación láser» como en las demás.
+Ojo del panel: el grupo de ubicaciones solo se ve entrando con la cuenta cibaospalaser (`/u/1/` si es la 2ª sesión del navegador) y eligiendo el grupo «Cibao Spa Laser Centro de Depilacion» en el desplegable; con la cuenta personal la lista muestra OTROS negocios (Naco, «Cibao Plaza», «Ebra & Skin»).
 
 ## 2. Servicios con precio «desde» (las 3 sedes abiertas)
 
