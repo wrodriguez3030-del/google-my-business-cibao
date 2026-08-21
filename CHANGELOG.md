@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0 — 2026-08-21
+
+- **Fase 5 avanzada** (todo lo que Windsor cubre, aprobado por el dueño): descripciones nuevas en Villa Olga y Rafael Vidal (`update_location`), horarios especiales 2026-2027 según el calendario oficial del Ministerio de Trabajo (24 sep, 9 nov, 25 dic, 1 ene — cerrado) en las 3 sedes abiertas, teléfonos de Google confirmados correctos (la web es la desactualizada).
+- Nuevo `docs/FICHA-CHECKLIST.md`: lo manual de business.google.com (categorías secundarias, servicios con precio, atributos, Q&A) + el pendiente de teléfonos en la web.
+
 ## 0.3.0 — 2026-08-21
 
 - Nuevo comando `/gmb-post`: post con la oferta vigente y CTA `BOOK` → reservas de AgendaPro (`estado/config.json` → `reservas`), aprobación previa del dueño y registro anti-duplicados en `estado/posts.json`.

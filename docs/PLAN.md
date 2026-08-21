@@ -28,12 +28,12 @@ Grupo de ubicaciones: https://business.google.com/groups/113578702847257069963/l
 - [ ] `/gmb-semana` cada semana (manual al principio; cuando esté estable, valorar rutina programada)
 - [ ] `/gmb-resenas`: responder toda reseña en <48 h (las respuestas se aprueban antes de publicarse)
 
-## Fase 5 — Optimización de ficha (una vez conectado Windsor)
+## Fase 5 — Optimización de ficha ⏳ (avanzada 2026-08-21)
 
-- [ ] Descripción de 750 caracteres con palabras clave locales (`update_location`)
-- [ ] Sitio web y teléfono correctos y consistentes con cibaospalaser.com
-- [ ] Horarios regulares exactos + horarios especiales de feriados RD
-- [ ] Lo que Windsor no cubre (categorías, servicios, atributos, Q&A) se hace a mano en business.google.com con la guía de `docs/SEO-LOCAL.md`
+- [x] Descripciones con palabras clave locales (`update_location`, 2026-08-21): Villa Olga y Rafael Vidal actualizadas (fuera el «Santo Domingo» confuso; con cita previa y evaluación gratuita). Los Jardines ya estaba bien y no se tocó
+- [x] Horarios regulares verificados exactos en las 3 sedes abiertas (L-V 9-20, sáb 8-16). Horarios especiales puestos según el calendario OFICIAL del Ministerio de Trabajo (regla del dueño: siempre esa fuente, no calcular la Ley 139-97 a mano): cerrado 24 sep, lun 9 nov (Constitución trasladada del vie 6), 25 dic 2026 y 1 ene 2027 — reemplazó los vencidos de 2024-2025
+- [x] Sitio web correcto en las 4 fichas; teléfonos de Google CONFIRMADOS correctos (2026-08-21). ⚠️ Pendiente aparte: la WEB tiene teléfonos viejos en Rafael Vidal y Villa Olga — ver `docs/FICHA-CHECKLIST.md`
+- [ ] Manual en business.google.com con `docs/FICHA-CHECKLIST.md`: categorías secundarias en Rafael Vidal y Villa Olga (Los Jardines ya tiene 5), servicios con precio «desde», atributos y Q&A
 
 ## Fase 6 — Apple Maps ⏳ (avanzada 2026-08-20)
 
