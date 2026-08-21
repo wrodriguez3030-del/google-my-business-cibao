@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 — 2026-08-21
+
+- Nuevo comando `/gmb-post`: post con la oferta vigente y CTA `BOOK` → reservas de AgendaPro (`estado/config.json` → `reservas`), aprobación previa del dueño y registro anti-duplicados en `estado/posts.json`.
+- `/gmb-semana` paso 6 ahora delega en `/gmb-post`.
+- Diseño y plan en `docs/superpowers/`.
+
 ## 0.2.0 — 2026-08-20
 
 - Windsor conectado (4 sucursales, write ON) y verificación de Apple enviada con documentos; 4 sedes reclamadas en Apple Maps con direcciones alineadas a Google.

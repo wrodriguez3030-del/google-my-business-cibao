@@ -15,7 +15,7 @@ Publica el lote semanal de fotos (y opcionalmente un post) en el perfil de Googl
 4. Verificar cada URL con `curl -sI <url>` → debe dar 200 y `content-type` de imagen. Si da 404, el push al espejo falta o falló.
 5. Por cada foto aprobada: Windsor `execute_action` con connector `google_my_business`, la cuenta de su sucursal, acción `upload_media`, `photo_url` y `category` del lote.
 5. Por cada publicada con éxito: `node scripts/marcar-publicada.mjs <archivo> <sucursal>`.
-6. Post opcional (semanal o quincenal, ver `docs/SEO-LOCAL.md`): `create_local_post` con la oferta vigente del mes y CTA `BOOK` hacia el enlace de reservas de AgendaPro, `language_code: "es"`. La oferta cambia cada mes — verificar la vigente antes de redactar, nunca reciclar la del mes pasado.
+6. Post opcional (semanal o quincenal, ver `docs/SEO-LOCAL.md`): correr `/gmb-post` — él trae la oferta vigente, la aprobación del dueño y el registro anti-duplicados en `estado/posts.json`.
 7. Commit de `estado/cola.json` (`gmb: publicación semanal AAAA-MM-DD`) y push a ambos remotos.
 8. Resumen final: qué se publicó, en qué sucursal, cuántas fotos quedan en el banco.
 

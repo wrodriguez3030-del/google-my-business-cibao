@@ -14,6 +14,8 @@ No es una app web — es un repo de operaciones: banco de imágenes versionado, 
 | `scripts/siguiente-lote.mjs` | Elige las próximas fotos a publicar y arma sus URL públicas |
 | `scripts/marcar-publicada.mjs` | Registra en la cola una foto ya publicada |
 | `/gmb-semana` | Comando Claude: publica el lote semanal en Google Business vía Windsor |
+| `/gmb-post` | Comando Claude: post con CTA «Reservar» (AgendaPro) en las sedes abiertas, con aprobación previa |
+| `estado/posts.json` | Registro de posts publicados por sede — anti-duplicados |
 | `/gmb-resenas` | Comando Claude: lee reseñas sin responder y redacta respuestas |
 | `docs/SEO-LOCAL.md` | Estrategia completa para subir posiciones en el "local pack" |
 | `docs/PLAN.md` | Plan por fases y su estado real |
