@@ -10,15 +10,16 @@ La categoría principal de Rafael Vidal SÍ es «Centro de depilación láser» 
 
 Ojo del panel: el grupo de ubicaciones solo se ve entrando con la cuenta cibaospalaser (`/u/1/` si es la 2ª sesión del navegador) y eligiendo el grupo «Cibao Spa Laser Centro de Depilacion» en el desplegable; con la cuenta personal la lista muestra OTROS negocios (Naco, «Cibao Plaza», «Ebra & Skin»).
 
-## 2. Servicios con precio «desde» (las 3 sedes abiertas)
+## 2. Servicios con precio «desde» (las 3 sedes abiertas) ⏳ (avanzado 2026-08-21)
 
-Cada servicio publicado es una palabra clave. Mínimo:
+Cada servicio publicado es una palabra clave. El precio es el REGULAR (RD$2,000/área/sesión), nunca el de oferta (la oferta va en los posts de `/gmb-post`).
 
-- Depilación láser (desde RD$2,000 por área) — el precio REGULAR, nunca el de oferta (la oferta cambia cada mes y va en los posts de `/gmb-post`)
-- Tratamientos faciales
-- Hollywood Peel
-- Masajes relajantes y terapéuticos
-- Eliminación de tatuajes
+- [x] **Rafael Vidal**: «Depilación Láser» (custom, sección principal) y «Laser hair removal» (sección Skin care clinic) con **Desde RD$2,000** + descripción GentleYAG; **Hollywood Peel** añadido. Ya tenía Masajes, Faciales, depilación brasileña, Wax.
+- [x] **Villa Olga**: «Depilación láser» (estructurado, sección principal) con **Desde RD$2,000** + descripción.
+- [ ] **Villa Olga**: añadir servicios custom: Masajes, Tratamientos faciales, Hollywood Peel, Eliminación de tatuajes (el modal de Google se colgó — reintentar).
+- [ ] **Los Jardines**: precio «Desde RD$2,000» en su servicio de depilación láser + añadir Tratamientos faciales y Hollywood Peel (ya tiene Masajes).
+
+🔧 Cómo operar el modal de servicios (aprendido 2026-08-21): las capturas de pantalla salen a escala — **coordenadas SIEMPRE por JS** (`getBoundingClientRect` del iframe [mismo origen] + del elemento) y clic real ahí; los botones de la página exterior se abren con `focus()` + tecla Enter; el diálogo «¿Descartar cambios?» se resuelve con `.click()` JS directo sobre su botón dentro del iframe; el dropdown de precio se abre con clic real y la opción «Desde» se clica por coordenada JS.
 
 ## 3. Atributos
 
